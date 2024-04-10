@@ -34,12 +34,12 @@ describe("Api Suite test", () => {
         })
 
         it("should unauthorize a request when requesting it using wrong credentials and return HTTP Status 401", async () => {
-            const response = request(app)
+            const response = await request(app)
                 .post("/login")
                 .send({ username: "Ery", password: "321" })
                 .expect(401)
 
-            console.log(response)
+            assert.ok(response.unauthorized)
             assert.deepStrictEqual(response.text, "Logging failed!")
         })
     })
