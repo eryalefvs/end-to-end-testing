@@ -1,1 +1,30 @@
-{"processes":{"3f72c1b3-acad-44c5-a4b8-83dc8087c43f":{"parent":null,"children":[]},"7c3a5496-07a1-4708-9d42-bbb4d8d591d6":{"parent":"a78b7eb0-1ea5-4ac6-888f-2d281d2472cd","children":["b3fbb5a6-f850-4eaf-94b0-94c901381739"]},"a78b7eb0-1ea5-4ac6-888f-2d281d2472cd":{"parent":null,"children":["7c3a5496-07a1-4708-9d42-bbb4d8d591d6"]},"b3fbb5a6-f850-4eaf-94b0-94c901381739":{"parent":"7c3a5496-07a1-4708-9d42-bbb4d8d591d6","children":[]}},"files":{"C:\\Users\\eryal\\Eryálef_folder\\Estudos\\JsExpert\\coverage-e2e\\src\\api.js":["b3fbb5a6-f850-4eaf-94b0-94c901381739"]},"externalIds":{}}
+{
+    "processes": {
+        "06e53581-c69a-47e1-83ef-5cea68efb726": {
+            "parent": "88819da8-97b8-4c64-8927-9940aa8b2f91",
+            "children": [
+                "3523bf54-a583-4bef-a381-61c3130ffee8"
+            ]
+        },
+        "2035f446-37af-41ea-9f27-6b72ccc11541": {
+            "parent": null,
+            "children": []
+        },
+        "3523bf54-a583-4bef-a381-61c3130ffee8": {
+            "parent": "06e53581-c69a-47e1-83ef-5cea68efb726",
+            "children": []
+        },
+        "88819da8-97b8-4c64-8927-9940aa8b2f91": {
+            "parent": null,
+            "children": [
+                "06e53581-c69a-47e1-83ef-5cea68efb726"
+            ]
+        }
+    },
+    "files": {
+        "C:\\Users\\eryal\\Eryálef_folder\\Estudos\\JsExpert\\coverage-e2e\\src\\api.js": [
+            "3523bf54-a583-4bef-a381-61c3130ffee8"
+        ]
+    },
+    "externalIds": {}
+}

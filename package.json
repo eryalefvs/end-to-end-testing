@@ -97,8 +97,8 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "npx mocha -w --parallel src/*.test.js",
-    "test:cov": "npx nyc npx mocha --parallel src/*.test.js"
+    "test": "npx mocha -w --parallel src/api.test.js",
+    "test:cov": "npx nyc npx mocha --parallel src/api.test.js"
   },
   "keywords": [],
   "author": "",
